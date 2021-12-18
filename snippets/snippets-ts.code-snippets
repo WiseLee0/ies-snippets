@@ -1,0 +1,25 @@
+{
+  "subject-context": {
+    "prefix": "rsc",
+    "body": [
+      "import { BaseContext, transferable } from '@ies/ic-common-subject-context';",
+      "",
+      "type $1State = {",
+      "\t$2",
+      "}",
+      "@transferable",
+      "export class $1Context extends BaseContext<$1State> {",
+      "\tconstructor() {",
+      "\t\tsuper({});",
+      "\t}",
+      "",
+      "\tsetState(state: Partial<$1State>){",
+      "\t\tthis.dispatch({",
+      "\t\t\t...state,",
+      "\t\t});",
+      "\t}",
+      "}",
+      ""
+    ]
+  }
+}

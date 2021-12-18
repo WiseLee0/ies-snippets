@@ -1,0 +1,28 @@
+{
+  "react基础片段": {
+    "prefix": "rbase",
+    "body": [
+      "import React from 'react';",
+      "",
+      "type $1Props = {",
+      "\t$2",
+      "}",
+      "export const $1:React.FC<$1Props> = (props) => {",
+      "\treturn ${0:<div></div>};",
+      "}",
+      ""
+    ]
+  },
+  "函数组件": {
+    "prefix": "rfc",
+    "body": [
+      "type $1Props = {",
+      "\t$2",
+      "}",
+      "const $1:React.FC<$1Props> = (props) => {",
+      "\treturn ${0:<div></div>};",
+      "}",
+      ""
+    ]
+  }
+}
