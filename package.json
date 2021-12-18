@@ -2,6 +2,7 @@
   "name": "ies-snippets",
   "displayName": "ies-snippets",
   "description": "常用代码片段",
+  "publisher": "wiseLee",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.63.0"
@@ -9,6 +10,9 @@
   "categories": [
     "Snippets"
   ],
+  "repository": {
+    "url": "git@github.com:WiseLee0/ies-snippets.git"
+  },
   "contributes": {
     "snippets": [
       {
